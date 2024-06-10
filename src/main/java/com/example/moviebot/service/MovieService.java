@@ -37,8 +37,8 @@ public class MovieService {
     private final DetailedResponseAPIClient detailedResponseAPIClient;
     private final SearchByNameAPIClient searchByNameAPIClient;
     private final SearchByGenreAPIClient searchByGenreAPIClient;
-    private final String host = "advanced-movie-search.p.rapidapi.com";
-    private final String key = "674678e122mshd00ec5b8f945302p1052bcjsn0ad69ed2af91";
+    private final String host = "YOUR_API_HOST";
+    private final String key = "YOUR_API_KEY";
     private Random random = new Random();
     private Long lastUpdateId = 0L;
 
